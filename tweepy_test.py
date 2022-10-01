@@ -22,8 +22,6 @@ try:
   
   
   
-  api.retweet("1575691835338539008", user_auth = True)
-  print("tweetei")
-    # count += 1
+  tweets = api.get_users_tweets("1274547639107883009", user_auth = True)
 except Exception as e:
   print(e)
