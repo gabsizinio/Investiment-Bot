@@ -104,11 +104,11 @@ tweet_baixas = create_tweet(post,baixa_df,var = "baixa")
 #Armazenando as chaves
 load_dotenv()
 
-API_KEY = os.environ.get("API_KEY")
-API_SECRET_KEY = os.environ.get("API_SECRET_KEY")
-BEARER_TOKEN = os.environ.get("BEARER_TOKEN")
-ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN")
-ACCESS_SECRET_TOKEN = os.environ.get("ACCESS_SECRET_TOKEN")
+API_KEY = "pXCwX1nrUCDxXsrdgoZk5VdEX"
+API_SECRET_KEY = "i4QraUyMWoDfccKlCAtNz4DCSHT8rJGmmkXqY7jsobEBvCSFNn"
+BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAOhogQEAAAAAe2tlGB8z22V7kG0UpIMBwHcJBBU%3DC0la8ErkBh3ke2OWIBcnq7NbLgFuWIkkZaE3zbqW8bVJOENRcT"
+ACCESS_TOKEN = "1298692051983388676-ruaPIaujU6cWnWLgt6q63ntBwcE67d"
+ACCESS_SECRET_TOKEN = "VQXvzjmlBrgWziPM9GvyznT32uLzQbgFzPnEeLFaO3Ev9"
 
 
 
