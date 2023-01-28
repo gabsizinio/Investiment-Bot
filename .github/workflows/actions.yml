@@ -2,8 +2,7 @@ name: run main.py
 
 on:
   schedule:
-    - cron: '0 21 * * *' # runs at 21:00 UTC everyday
-
+    - cron: '0 */21 * * 1,2,3,4,5' # At minute 0 past every 21st hour on Monday, Tuesday, Wednesday, Thursday, and Friday.
 jobs:
   build:
     runs-on: ubuntu-latest
