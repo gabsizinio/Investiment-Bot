@@ -93,7 +93,7 @@ def create_tweet(tweet,dataframe,var):
   return tweet_part
 
 x = date.today()
-post = f"{x.day+1}/{x.month}/{x.year}:\n\n"
+post = f"{x.day}/{x.month}/{x.year}:\n\n"
 
 tweet_altas = create_tweet(post,alta_df,var = "alta")
 post += tweet_altas
