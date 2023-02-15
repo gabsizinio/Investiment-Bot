@@ -110,12 +110,13 @@ class twitterBot(tweepy.OAuth1UserHandler):
       post += tweet_altas
       original = self.api.update_status(status = post)
 
-      print(original.id)
       post2 = ""
       post2 += tweet_baixas
 
       reply = self.api.update_status(status=post2, in_reply_to_status_id = original.id , 
       auto_populate_reply_metadata=True)
 
+      print("Tweet Posted!!")
+      
     except Exception as e:
       print(e)
